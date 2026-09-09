@@ -13,6 +13,13 @@ function getComputerChoice() {
     
 }
 
+function getHumanChoice() {
+    let userInput = prompt("Type in your choice:");
+    console.log("you played: " + userInput);
+}
+
+getHumanChoice();
+
 getComputerChoice();
 
 
